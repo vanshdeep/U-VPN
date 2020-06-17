@@ -1,0 +1,308 @@
+@media screen and (max-width: 1420px){
+    .img-box img{
+        width: 600px;
+        height: auto;
+        top: 1em;
+    }
+
+    .navbar-toggle{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1380px){
+    .download-btns{
+        padding-bottom: 5em;
+    }
+
+    #Download .download-btns{
+        width: 130%;
+        position: relative;
+        right: 5em;
+    }
+
+    .download-img img{
+        bottom: 4em;
+        margin: 0 2em;
+        width: 550px;
+        left: -4em;
+        position: relative;        
+    }
+
+}
+
+    
+
+@media screen and (max-width: 1200px){
+    .img-box img{
+        width: 550px;
+        height: auto;
+        top: 5em;
+        left: -2em;
+    }
+
+    .download-img img{
+        bottom: 4em;
+        margin: 0 2em;
+        width: 500px;
+        left: -4em;
+        position: relative;        
+    }
+}
+
+@media screen and (max-width:1100px){
+    #Download .download-btns {
+        width: 170%;
+        
+
+    }
+    
+}
+
+@media screen and (max-width: 992px){
+    
+    .navbar-toggle{
+        display: block;
+        margin-left: 1em;
+    }
+    #myNavbar{
+        background: rgba(2, 195, 154,0.5);
+        padding-left: 1rem;
+    }
+    
+    .img-box img{
+        width: 500px;
+        height: auto;
+        top: 10em;
+        left: -4em;
+    }
+
+    #Download .download-btns {
+        width: 110%;
+        right: 0em;
+    }
+
+    #Download .download-btns a:last-child{
+        position: relative;
+        bottom: 0em;
+        top: 2em;
+       
+    
+    }
+    .download-img img{
+        position: relative;
+        left: -6em;
+    }
+
+}
+
+@media screen and (max-width: 881px){
+    #Download .download-btns {
+        width: 120%;
+    }
+}
+
+@media screen and (max-width: 830px){
+    .pricing-box:nth-child(3) .box-btn{
+        width: 110%;
+        position: relative;
+        left: -1em;
+    }
+
+}
+
+
+@media screen and (max-width: 825px){
+   
+    #Download .download-btns {
+        width: 140%;
+    }
+    #Download .download-btns a:last-child{
+        position: relative;
+        bottom: 0em;
+        top: 2em;
+       
+    }
+}
+
+@media screen and (max-width: 805px){
+    .pricing-box:nth-child(1) .box-btn{
+        width: 110%;
+        position: relative;
+        left: -1em;
+    }
+}
+
+
+
+@media screen and (max-width: 767px){
+    .img-box img{
+      display: none;
+    }
+
+    #Download .download-btns{
+        width: 100%;
+    }
+
+    #Download .download-btns a:last-child{
+        top: 0;
+    }
+
+    .download-img img{
+        margin-top: 5em;
+        left: 0em;
+    }
+}
+ 
+
+
+@media screen and (max-width: 740px){
+    #Download .download-btns a:last-child{
+        top: 2em;
+    }
+
+    #Download .download-btns{
+        width: 70%;
+        position: relative;
+        left: 5em;
+    }
+}
+
+@media screen and (max-width: 695px){
+    #Download .download-btns{
+        width: 80%;
+        left: 3em;
+    }
+}
+
+
+@media screen and (max-width: 625px){
+    #Download .download-btns{
+        width: 90%;
+        left: 0em;
+        
+    }
+
+    .download-img img{
+        left: -5em;
+    }
+
+    .pricing-box{
+        width: 103%;
+    }
+
+}
+
+@media screen and (max-width: 570px){
+    #Download .download-btns{
+        width: 100%;
+        left: 0em;
+        
+    }
+}
+
+@media screen and (max-width: 525px){
+    #Download .download-btns{
+        width: 110%;
+        left: -2em;
+    }
+
+    .download-img img{
+        left: -10em;
+    }
+
+    .feature-block img{
+        width: 80%;
+    }
+
+    .pricing-box{
+        width: 120%;
+    }
+
+    
+    .pricing-box .box-btn a{
+        width: 130%;
+        position: relative;
+        left: -1em;
+    }
+}
+
+@media screen and (max-width: 487px){
+    #Download .download-btns{
+        width: 130%;
+        left: -3em;
+        
+    }
+}
+
+@media screen and (max-width: 435px){
+    #Download .download-btns{
+        width: 140%;
+        left: -4em;
+        padding: 1em;
+    }
+
+    .download-img img{
+        margin-top: 8em;
+        width: 400px;
+        
+    }
+
+    .feature-block img{
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 385px){
+    #Download .download-btns{
+        width: 170%;
+        left: -6em;
+        
+    }
+
+    .contact-form  form ::placeholder{
+        font-size: 0.8em;
+    }
+}
+
+@media screen and (max-width: 343px){
+    #Download .download-btns{
+        width: 120%;
+        left: 0em;
+    }
+
+    #Download .download-btns a:nth-child(2){
+        position: relative;
+        top: 2em;
+      
+    }
+
+    #Download .download-btns a:nth-child(3){
+        top: 4em;
+    }
+}
+
+@media screen and (max-width: 327px){
+    #Download .download-btns{
+        width: 120%;
+        background-color: yellowgreen;
+        padding-bottom: 8em;         
+    }
+
+    #Download .download-btns a:nth-child(2){
+        background-color: wheat;
+
+    }
+
+    #Download .download-btns a:nth-child(3){
+        background-color: yellow;
+        top: 6em;
+        left: -5em;
+        
+    }
+
+    .download-img img{
+        left: -12em;
+    }
+}
+

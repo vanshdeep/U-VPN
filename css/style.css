@@ -1,0 +1,432 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,500;0,700;0,900;1,800&display=swap');
+
+:root{
+    --primary-color: #05668D;
+    --secondary-color: #02C39A;
+    --light-color: #F0F3BD;
+
+    --new-color: #0e4c64;
+}
+
+
+body{
+    font-family: 'Raleway',sans-serif;
+    
+}
+
+
+h1{
+    font-family: 'Raleway',sans-serif;
+
+}
+
+
+body{
+    overflow-x: hidden;
+}
+
+
+/* ============ Navigation  Section ============= */
+
+.navbar{
+    position: absolute;
+    z-index: 1;
+   
+
+}
+
+
+.nav-header{
+    color: white;
+}
+
+
+.nav-link{
+    color: white;
+}
+
+
+
+.nav-link:hover, .nav-header:hover{
+    color: var(--light-color);
+   
+}
+
+.navbar.active{
+    background-color: rgb(2, 195, 154,0.9);
+    box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+
+
+/* ============ Hero Section ============= */
+
+
+.btn{
+    color: #fff;
+    border-radius: 100vh;
+    margin-left: 1rem;
+    border: 1px solid white;
+    transition: all 300ms ease-in-out;
+}
+
+.btn:hover{
+    background-color: var(--secondary-color);
+    border: 1px solid var(--secondary-color);
+}
+
+
+.hero-section{
+    background: linear-gradient(to right, rgba(4, 53, 75, 0.8), rgba(12, 195, 154, 0.8));
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-left: 4rem;
+    padding-bottom: 6rem;
+    position: relative;
+    padding-top: 4rem;
+    
+
+}
+
+
+.img-box img{
+   
+    position: absolute;
+    top: -3em;
+    left: 0em;
+    bottom: 23em;
+    right: 0;
+    padding-left: 7em;
+    z-index: 1;
+    margin-right: 2em;
+    width: 650px;
+    height: auto;
+    
+
+}
+
+
+
+.hero-main-section h1{
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 0.4rem;
+
+}
+
+
+.hero-main-section p{
+    color: white;
+    line-height: 2rem;
+    font-size: 1.2rem;
+    margin: 2rem 0 2rem 0;
+}
+
+
+/* ============ About Section ============= */
+
+#about i{
+    color: var(--primary-color);
+}
+
+.section-title-heading {
+    color: var(--primary-color);
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+    z-index: 1;
+    word-spacing: 0.4em;
+    font-size: 2.5em;
+}
+
+
+
+#about h3{
+    color: var(--primary-color);
+    font-size: 1.5em;
+    text-transform: uppercase;
+}
+
+#about p{
+    line-height: 2em;
+   padding: 0 2em;
+}
+
+
+/* ============ Feature Section ============= */
+
+
+#Features{
+    background-color: #fafafa;
+    margin-top: 10em;
+    padding-bottom: 12em;
+}
+
+
+
+
+.feature-block{
+    
+    padding-left: 20px;
+    margin: 20px 0;
+   
+}
+
+.feature-block img{
+    display: block;
+    margin: 0 auto ;
+    width: 300px;
+    padding-bottom: 2em;
+   
+}
+
+.feature-block p{
+    line-height: 1.7rem; 
+    padding: 0 2em;
+}
+
+
+/* ============ Download Section ============= */
+    
+#Download{
+    background: linear-gradient(to right, rgba(4, 53, 75, 0.8), rgba(12, 195, 154, 0.8));
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding-left: 4em;
+    padding-right: 4em;
+    overflow: hidden;
+    padding-top: 15em;
+    padding-bottom: 4em;
+}
+
+
+.download-img img{
+   
+    bottom: 4em;
+    margin: 0 2em;
+    width: 600px;
+    
+}
+
+#Download h1{
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+
+}
+
+
+#Download p{
+    color: white;
+    line-height: 2rem;
+    font-size: 1.2rem;
+    margin: 2rem 0 2rem 0;
+}
+
+
+#Download .download-btns a{
+    margin-top: 2em;
+   border: 2px solid white;
+   border-radius: 100vh;
+   padding: 0.5em 1em;
+   margin-left: 1em;
+   color: white;
+   font-weight: 500;
+   transition: all 300ms ease-in-out;
+   text-decoration: none;
+   
+  
+}
+
+.download-btns{
+    padding: 2em;
+}
+
+
+.download-btns i{
+    color: white;
+    margin: 0 0.5em;
+
+}
+
+#Download .download-btns a:hover{
+     background-color: var(--secondary-color);
+     border: 2px solid var(--secondary-color);
+    
+    
+}
+
+.download-img img{
+    align-items: center;
+   
+    padding-left: 10em;
+}
+
+/* ============ Pricing Section ============= */
+
+
+
+
+#Pricing{
+    padding-bottom: 10em;
+    z-index: 1;
+}
+
+.pricing-box{
+    margin: 2em 2em;
+    width: calc(90%/3);
+    height: auto;
+    
+    padding: 2em 0;
+    
+    
+}
+
+.pricing-box:nth-child(3){
+    border: 2px solid var(--secondary-color);
+}
+
+
+.pricing-box:hover{
+    background-color: white;
+    box-shadow: -1px 4px 4px 4px 4px rgba(4, 53, 75, 0.2);
+    -webkit-box-shadow: -1px 0px 12px 4px rgba(4, 53, 75, 0.2);
+    -moz-box-shadow: -1px 0px 12px 4px rgba(4, 53, 75, 0.2);
+    -o-box-shadow: -1px 0px 12px 4px rgba(4, 53, 75, 0.2);
+
+}
+
+.pricing-box:nth-child(3):hover .box-content p{
+    background-color: var(--secondary-color);
+    background-size: cover;
+    border: 1px solid var(--secondary-color);
+    color: white;
+}
+.pricing-box:nth-child(2):hover .box-content p{
+    background-color: var(--secondary-color);
+    background-size: cover;
+    border: 1px solid var(--secondary-color);
+    color: white;
+}
+
+.box-header h4{
+
+color: var(--primary-color);
+text-transform: uppercase;
+font-size: 1.4em;
+}
+
+.box-content p{
+    border: 1px solid black;
+    border-radius: 100vh;
+    display: inline-block;
+    padding: 0 1em;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.box-btn{
+    margin-top: 3em;
+    margin-bottom: 2em;
+    margin-right: 1em;
+
+}
+
+.box-btn a, .btn-contact{
+    margin-top: 2em;
+   border: 2px solid var(--secondary-color);
+   border-radius: 100vh;
+   padding: 0.5em 1em;
+   margin-left: 1em;
+   color: var(--secondary-color);
+   font-weight: 500;
+   transition: all 300ms ease-in-out;
+   text-decoration: none;
+}
+
+.box-btn a:hover, .btn-contact:hover{
+    color: white;
+    background-color: var(--secondary-color);
+    border: 2px solid var(--secondary-color);
+}
+
+
+/* ============ Contact Section ============= */
+
+#Contact{
+    background-color: #fafafa;
+    padding: 0em 0 6em 0;
+}
+
+
+.contact-form{
+    margin-left: 3em;
+}
+
+.address{
+    margin-left: 1em;
+    margin-top: 1em;
+}
+
+.address p{
+    font-size: 1em;
+}
+
+.contact-info ul{
+    list-style: none;
+}
+
+.contact-info ul li span{
+    
+    margin-left: 1em;
+}
+
+/* ============ Footer Section ============= */
+
+#footer{
+    background-color: var(--primary-color);
+    padding: 6em 0 2em 0;
+    color: white;
+}
+
+
+
+.footer-header span{
+    font-size: 2em;
+}
+
+
+.social-icons{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.social-icons a{
+    color: white;
+    margin-right: 0.7em;
+}
+
+.social-icons a:nth-child(1):hover{
+    color: #3b5998;
+    
+}
+
+.social-icons a:nth-child(2):hover{
+    color: #00acee;
+}
+
+.social-icons a:nth-child(3):hover{
+    color: #dd2a7b;
+}
+
+.social-icons a:nth-child(4):hover{
+    color: #ff0000;
+}
+
+.copyright p{
+    margin-bottom: 2em;
+}
+
+    
+
+
